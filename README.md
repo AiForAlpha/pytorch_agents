@@ -2,14 +2,12 @@
 Deep RL library using pytorch
 
 # Pytorch agents
-
 pytorch_agents is a collection of high-quality implementations of deep reinforcement learning algorithms.
 
 ## Prerequisites 
 pytorch_agents requires python3 (>=3.6) with the development headers. 
 You'll also need system packages CMake, OpenMPI and zlib. Those can be installed as follows
-
-    
+  
 ## Virtual environment
 From the general python package sanity perspective, it is a good idea to use virtual environments (virtualenvs) to make sure packages from different projects do not interfere with each other. You can install virtualenv (which is itself a pip package) via
 Virtualenvs are essentially folders that have copies of python executable and all python packages.
@@ -33,7 +31,6 @@ More thorough tutorial on virtualenvs and options can be found [here](https://pa
     ```bash 
     
     ```
-
 
 ## Testing the installation
 All unit tests in baselines can be run using pytest runner:
