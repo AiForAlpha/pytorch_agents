@@ -1,0 +1,4 @@
+from pytorch_agents.common.vec_env.obs_dict_wrapper import ObsDictWrapper
+from pytorch_agents.her.goal_selection_strategy import GoalSelectionStrategy
+from pytorch_agents.her.her import HER
+from pytorch_agents.her.her_replay_buffer import HerReplayBuffer
